@@ -128,7 +128,7 @@ Tested on full training set (40,409 examples × 13,297 features):
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/sentiment-analysis
+git clone https://github.com/GodblessOsei/sentiment-from-scratch
 cd sentiment-analysis
 pip install numpy pandas scikit-learn
 # Add data.tsv to the directory
