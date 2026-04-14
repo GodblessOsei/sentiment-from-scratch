@@ -1,16 +1,16 @@
-# 🎯 Sentiment Analysis: From Scratch ML Pipeline
+# Sentiment Analysis: From Scratch ML Pipeline
 
 > Building and benchmarking NLP sentiment classifiers from the ground up — implementing gradient descent, comparing linear models, and analyzing scalability on real-world text data.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a complete **sentiment analysis pipeline** on the Stanford Sentiment Treebank dataset, classifying movie reviews as positive (+1) or negative (-1). Rather than relying on black-box libraries, the focus is on **understanding what's happening under the hood** — implementing optimization algorithms from scratch and rigorously comparing model performance, speed, and scalability.
 
 ---
 
-## 🔑 Key Highlights
+## Key Highlights
 
 - **Custom NLP pipeline** — tokenization and Bag-of-Words featurization producing 13,297-dimensional feature vectors
 - **Gradient Descent from scratch** — full implementation in NumPy with learning rate experimentation
@@ -20,7 +20,7 @@ This project builds a complete **sentiment analysis pipeline** on the Stanford S
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 sentiment-analysis/
@@ -32,7 +32,7 @@ sentiment-analysis/
 
 ---
 
-## 🛠️ NLP Pipeline
+## NLP Pipeline
 
 Raw text is transformed into machine-readable feature vectors through a custom pipeline:
 
@@ -49,7 +49,7 @@ def tokenize(text):
 
 ---
 
-## 🤖 Models Compared
+## Models Compared
 
 | Model | Test Accuracy | Training Time (5k samples) |
 |---|---|---|
@@ -64,7 +64,7 @@ def tokenize(text):
 
 ---
 
-## ⚙️ From-Scratch Implementations
+## From-Scratch Implementations
 
 ### Gradient Descent
 Full batch gradient descent with configurable learning rate and iterations:
@@ -107,7 +107,7 @@ Tested on full training set (40,409 examples × 13,297 features):
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - **Regularization matters** — Ridge regression reduced overfitting from 68% → 78% test accuracy by penalizing large weights
 - **Loss function design is critical** — logistic loss and hinge loss outperform MSE for classification because they're explicitly designed for binary outputs
@@ -116,7 +116,7 @@ Tested on full training set (40,409 examples × 13,297 features):
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python 3
 - NumPy
@@ -125,7 +125,7 @@ Tested on full training set (40,409 examples × 13,297 features):
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/GodblessOsei/sentiment-from-scratch
@@ -137,6 +137,6 @@ jupyter notebook Sentiment-Analysis.ipynb
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 Stanford Sentiment Treebank (SST) — a benchmark dataset of movie review sentences with human-annotated sentiment labels.
